@@ -18,7 +18,7 @@ This sample sets the bare minimum fields to create a card (debit or credit) Paym
     "addressCity":"New York",
     "addressState":"New York",
     "addressCountry":"USA",
-    "addressPostalCode":"11022"
+    "addressPostalCode":"11022",
     "transactionList": [
     ],
     "paymentMethodData": {
