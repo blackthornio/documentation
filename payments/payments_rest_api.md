@@ -105,6 +105,7 @@ If you want our Payments Rest API to work with the standard `Account` and `Conta
       "paymentGatewayId" : "a0141000001jhoh",
       "email" : "someone@blackthorn.io",
       "isDefault" : true,
+      "address" : "{\"city\":\"Test city\", \"country\":\"USA\",\"line1\":\"Test Line1\",\"line2\":\"Test Line2\",\"state\":\"Test state\",\"postal_code\":\"88888\"}",
       "stripePayload" : "{\"id\":\"tok_19AkExDXJoGaqeOAHLrQSufI\",\"object\":\"token\",\"card\":{\"id\":\"card_19AkExDXJoGaqeOA9NDGpROK\",\"object\":\"card\",\"address_city\":null,\"address_country\":null,\"address_line1\":null,\"address_line1_check\":null,\"address_line2\":null,\"address_state\":null,\"address_zip\":null,\"address_zip_check\":null,\"brand\":\"Visa\",\"country\":\"US\",\"cvc_check\":\"unchecked\",\"dynamic_last4\":null,\"exp_month\":11,\"exp_year\":2019,\"funding\":\"credit\",\"last4\":\"4242\",\"metadata\":{},\"name\":\"sdada\",\"tokenization_method\":null},\"client_ip\":\"188.143.37.52\",\"created\":1477937435,\"livemode\":false,\"type\":\"card\",\"used\":false}"
     }
     ```
