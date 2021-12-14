@@ -36,14 +36,34 @@ waitlistAttendees | Yes | Array of WaitlistAttendees | Array of Attendees to Wai
     "email" : "tom@blackthorn.io",
     "phone" : "808-555-1234",
     "contactId" : "003f400000PLfd2AAD",
-    "accountId" : "001f400000QepmMAAR"
+    "accountId" : "001f400000QepmMAAR",
+    "customQuestions":[
+       {
+          "formElementId":"001f400000QepmMAAR",
+          "answer":"test answer"
+       },
+       {
+          "formElementId":"001f400000QepmMAAR",
+          "answer":"test answer2"
+       }
+     ]
   }, {
     "eventItemId" : "a0zf4000003qR4IAAU",
     "firstName" : "Sally",
     "lastName" : "Thomas",
     "email" : "sally@blackthorn.io",
     "phone" : "303-555-6789",
-    "leadId" : "00Qf4000007tVCMEA2"
+    "leadId" : "00Qf4000007tVCMEA2",
+    "customQuestions":[
+       {
+          "formElementId":"001f400000QepmMAAR",
+          "answer":"test answer"
+       },
+       {
+          "formElementId":"001f400000QepmMAAR",
+          "answer":"test answer2"
+       }
+     ]
   } ],
   "mainContact" : {
     "lastName" : "Contact",
