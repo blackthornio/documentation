@@ -21,7 +21,18 @@
           "formElementId" :"<id>",
           "answer":"answervalue"
        }],
-       "sessionIds":["sessionId1","sessionId2"]
+       "sessionIds":["sessionId1","sessionId2"],
+       "donations":[
+             {
+                "donationAmount":50
+                "eventItemId":"a130U000000tFYLQAY"
+             }
+        ],
+        "products":[
+             {
+                "eventItemId":"a130U000000tFYLQAY"
+             }
+        ],
     }
   ],
   "transactionId":null,
