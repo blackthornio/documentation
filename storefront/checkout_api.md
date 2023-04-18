@@ -30,7 +30,7 @@ The API will return a Status Code = 400 or 500 depending on the error type:
 - 500 - Returned if error is caused by an unexpected server error such as null pointer or database exception.
 
 For either of these codes, the response body will contain  an error attribute & errorCode. It will also have success : true or false
-`{"error" : "This is what went wrong."}`
+`{"error" : "This is what went wrong.", "errorCode":"", "success":false}`
 
 
 ## API Request and Response Payload
@@ -38,8 +38,6 @@ For either of these codes, the response body will contain  an error attribute & 
 JSON Attribute | Required? | Type | Details
 ----- | ----- | ----- | -----
 mainContact | No | MainContact | Name and Email of the main contact. Attributes of MainContact are: firstName, lastName and email.
-waitlistAttendees | Yes | Array of WaitlistAttendees | Array of Attendees to Waitlist. Attributes of WaitlistAttendee are: eventItemId (required), firstName (required), lastName (required), email (required), phone, accountId, contactId and leadId.
-
 
 
 **Sample Body:** This below payload will submit checkout. To validate the code pass "validateCode" : true & "submit" : false
