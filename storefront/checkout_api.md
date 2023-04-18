@@ -45,8 +45,8 @@ mainContact | No | MainContact | Name and Email of the main contact. Attributes 
 {
   "transactionIds" : null,
   "authenticatedAccountId" : null,
-  "validateCode" : false
-  "submit": true
+  "validateCode" : false,
+  "submit": true,
   "salesDocument" : {
     "promoCode" : "1_OFF",
     "currencyCode" : "USD",
