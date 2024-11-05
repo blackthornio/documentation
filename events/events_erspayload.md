@@ -24,6 +24,7 @@ JSON Attribute | Section | Required? | Type | Details
 id | root | On Submit | String | 
 discountCodeName | root | On Submit | String | 
 transactionId | root | No | String | 
+transactionIds | root | No | Array | 
 submit | root | No | Boolean | 
 contactBillTo | root | On Submit | Contact Information | 
 attendeeList | root | No | Array Attendee Information | 
@@ -67,6 +68,7 @@ attendeeList | root | No | Array Attendee Information |
     }
   ],
   "transactionId":null,
+  "transactionIds":null,
   "submit": true
 }
 ```
